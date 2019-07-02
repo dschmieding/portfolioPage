@@ -1,0 +1,243 @@
+/**
+*** DUSTIN SCHMIEDING
+*** PORTFOLIO CODE SAMPLE STYLES
+**/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Prata|Alfa+Slab+One|Playfair+Display&display=swap"');
+
+/* === Padding === */
+
+.pad-top-20 {padding-top: 20px;}
+.pad-bottom-20 {padding-bottom: 20px;}
+.pad-vert-20 {padding: 20px 0;}
+.pad-top-40 {padding-top: 40px;}
+.pad-bottom-40 {padding-bottom: 40px;}
+.pad-vert-40 {padding: 40px 0;}
+.mar-bot-20 {margin-bottom: 20px;}
+
+/* === Alignment === */
+
+.center {margin: 0 auto; text-align: center;}
+
+/* === Text === */
+
+.italic {font-style: italic;}
+.prata {font-family: 'Prata', serif;}
+.alfa {font-family: 'Alfa Slab One', serif;}
+h2.subhead {font-weight: 300; font-size: 2.4rem; color: #17a2b8;}
+
+/* === Images === */
+
+.container .row img {width: 100%;}
+
+
+/* === Borders === */
+
+.border-bottom {border-bottom: 1px #dedede solid;}
+.border-top {border-top: 1px #dedede solid;}
+
+/* ===== Colors ===== */
+
+.bg-white {background-color: #fff;}
+.bg-dark-gray {background-color: #333;}
+.bg-light-gray {background-color: #f2f2f2;}
+.bg-med-gray {background-color: #AAB2B5;}
+.bg-orange {background-color: #dd8161;}
+.bg-red {background-color: #AE0000;}
+.bg-dark-blue {background-color: #2F4858}
+.bg-light-blue {background-color: #5AB7D4}
+.bg-midnight-blue {background-color: #484A55;}
+
+.orange {color: #dd8161;}
+.light-gray {color: #f2f2f2;}
+.med-gray {color: #AAB2B5;}
+.midnight-blue {color: #484A55;}
+.dark-gray {color:#333;}
+
+
+/* === NAV === */
+
+nav {
+    position: relative;
+    z-index: 1000;
+}
+
+.nav-item {
+    display: inline-flex;
+    float: left;
+}
+
+.nav-item a {
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1rem;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    color: #484A55;
+}
+
+.nav ul li a:hover {
+    background-color:#f2f2f2;
+}
+
+/* === Hero === */
+
+.hero {
+    background: ##2e2e48; /* Old browsers */
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,139,196,1) 0%, rgba(46,46,72,1) 100%);
+    background: -moz-linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,139,196,1) 0%, rgba(46,46,72,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,139,196,1) 0%, rgba(46,46,72,1) 100%);
+    background-image: url(images/hero.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    padding: 5% 0;
+}
+
+.hero h2 {font-size: 1.2rem;}
+
+/* === CTA Button === */
+
+.cta-button {
+    display: inline-block;
+    background: #fff;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border: 0px solid #000000;
+}
+
+.cta-button a {
+    padding: 1rem 1.5rem;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    font-size: .9rem;
+    color: #333;
+}
+
+.cta-button a:hover {
+    background: #e2e2e2;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border: 0px solid #000000;
+}
+
+/* === Spotlight === */
+
+.spotlight .col-2 {
+    padding-right: 1rem;
+}
+
+.spotlight .col-2 img {
+    max-width: 62px;
+}
+
+.spotlight .spotlight-text {
+    font-size: .8rem;
+}
+.spotlight .spotlight-text h5 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.spotlight .spotlight-text p {
+    padding: 0;
+}
+
+.spotlight-cta {
+    color: #5AB7D4;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border: 1px solid #5AB7D4;
+}
+
+.spotlight-cta:hover {
+    background: #5AB7D4;
+    color: #fff;
+}
+
+/* === Background Image Tiles === */
+
+.image-tile {
+    color: #000;
+    background-size: cover;
+    border: 1px #efefef solid;
+    display: block;
+}
+
+.image-tile-v1 {
+    width: 100%;
+    background-size: cover;
+    min-height: 200px;
+}
+
+.image-tile-v2 {
+    padding: 3rem;
+}
+
+.image-tile-v2 h4 {
+    font-size: 2rem; 
+    font-family: 'Prata', serif;
+}
+
+.tall-fractal-01 {background-image: url(images/vertical-fractal.jpg);}
+.tall-fractal-02 {background-image: url(images/vertical-fractal-02.jpg);}
+.tall-fractal-03 {background-image: url(images/vertical-fractal-03.jpg);}
+
+.container .row .tile-subhead {
+    text-transform: uppercase;
+    color: white;
+    padding: 2rem 0 0 2rem;
+}
+
+.container .row .image-tile-v2 a.cta {
+    color: #fff;
+    font-size: .9rem;
+    display: inline-block;
+    padding: .5rem 1rem;
+    margin: .5rem 0 0 2rem;
+    text-decoration: none;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border: 1px solid #fff;
+}
+
+.row .container .image-tile-v2 a.cta:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+/* === Text === */
+
+.row .white {color: #fff;}
+#page-Subhead h4 {font-size: 1.3rem; font-family: 'Prata', serif;}
+#page-Subhead p {font-size: .9rem;}
+
+/* === BS4 Cards === */
+
+.card .card-body h4 {
+    font-size: 1.4rem;
+    font-family: 'Playfair Display';
+    color: #17a2b8;
+}
+
+
+/* === FOOTER === */
+
+footer .row [class^="col"] {font-size: .8rem; padding: 1rem 0;}
